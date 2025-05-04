@@ -1,0 +1,258 @@
+#head1{
+    width: 100%;
+    text-align: center;
+    background-color: #000F38;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+#page{
+    background-color: rgb(24, 24, 24);
+}
+
+  
+
+#head1size{
+    font-size: 50px;
+}
+
+#page{
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+
+
+#fdrdiv{
+    width: fit-content;
+    background-color: #000F38;
+    
+    border-radius: 25px;
+    margin: 0px;
+    padding: 0px;
+    
+   border: 3px solid black;
+}
+
+#fdrname{
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+
+#aboutfdr{
+    
+    display: flex;
+    
+    width: fit-content;
+    
+    
+    justify-content: space-between;
+
+    height: fit-content;
+
+    padding-bottom: 30px;
+
+    margin-left: 80px;
+    margin-right: 80px;
+
+    
+}
+
+#fdrdisc{
+    background-color: #fff;
+    font-size: 25px;
+    height: fit-content;
+    width: fit-content;
+    padding: 15px;
+
+    border-radius: 17px;
+}
+
+#fdrprof{
+
+    height: fit-content;
+    width: fit-content;
+    
+    margin-left: 30px;
+    
+    
+}
+
+#photo{
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+
+#fdrlinks{
+
+    display: flex;
+
+    margin-top: 40px;
+
+    font-size: 30px;
+    color: white;
+
+    justify-content: space-around;
+}
+
+#tmlphead{
+    color: #fff;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+#tmldiv{
+    
+    width: 850px;
+    display: flex;
+    
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+
+    padding: 25px;
+
+    gap: 20px;
+    
+    
+}
+
+#tmldesc{
+    color: white;
+    width: fit-content;
+}
+
+
+#pagedata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 850px;
+}
+
+#tml{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    box-sizing: border-box;
+    height: fit-content;
+    border: 3px solid black;
+    padding: 8px;
+    border-radius: 1%;
+    box-shadow: 0 0 25px rgba(0, 255,255,0.5);}
+
+
+
+#tmlhead{
+    
+    margin-bottom: 20px;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    
+
+}
+
+
+
+#tmlhead img{
+   width: 50px; 
+   height: 50px; 
+   border: 2px solid white; 
+   border-radius: 3px;
+
+}
+
+#tmlhead h3{
+    color: white;
+    margin-top: 4px;
+}
+
+
+footer {
+    margin-top: auto;
+    background: transparent;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 25px rgba(0, 255,255,0.5);
+    margin-bottom: 40px;
+    
+}
+
+
+.footer .links a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, rgb(22, 53, 82), rgb(0, 19, 120));
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: none;
+    line-height: 1.7;
+    letter-spacing: 1.2px;
+    font-size: 10px;  
+}
+
+.links a {
+    padding: 10px 26px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: rgba(0, 255, 255, 0.6); /* Blending cyan */
+    color: black;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    opacity: 0.9;
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: rgba(0, 255, 255, 0.8); /* Slight hover effect */
+}
+
+
+#para{
+    color: white;
+}
+
+
+
